@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import static org.junit.Assert.assertEquals;
 
-public class Nagnath {
+public class Nagnath_jUnit {
 
 	static String name;
 	static String lastName;
