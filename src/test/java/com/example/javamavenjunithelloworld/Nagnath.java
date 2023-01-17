@@ -22,7 +22,7 @@ public class Nagnath {
 
 		JSONParser parser = new JSONParser();
 		try {
-			Object obj = parser.parse(new FileReader("C:/Users/HP/Desktop/response.json"));
+			Object obj = parser.parse(new FileReader("C:/Users/nagnath.bandgul/Desktop/response.json.txt"));
 			JSONObject jsonObject = (JSONObject) obj;
 			name = (String) jsonObject.get("firstName");
 			lastName = (String) jsonObject.get("lastName");
@@ -41,8 +41,8 @@ public class Nagnath {
 	@Order(1)
 	public void textAssertion() {
 		fetchFromJsonFile();
-		String firstName = "Nagnath";
-		String lastName1 = "Solapurone";
+		String firstName = "shubham";
+		String lastName1 = "parab";
 		String email1 = "asmith@thinkingtester.com";
 		assertEquals(firstName, name);
 		assertEquals(lastName1, lastName);
